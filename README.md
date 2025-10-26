@@ -1,6 +1,6 @@
 # SRIR: F1 Rival Radio Intelligence System
 
-🏎️ **SRIR: F1 Rival Radio Intelligence.** Full-stack AI portfolio project. Transcribes & analyzes F1 radio sentiment using local Whisper (CUDA) + NLP Transformers. ⚡ Stack: FastAPI (Python) & React (JS).
+🏎️ **SRIR: F1 Rival Radio Intelligence.** Full-stack AI portfolio project. Transcribes & analyzes F1 radio sentiment using local Whisper (CUDA) + NLP Transformers. ⚡ Stack: FastAPI (Python) + React (JS).
 
 ---
 
@@ -56,12 +56,7 @@ cd backend
 
 # (Recomendado) Crea y activa un entorno virtual
 python -m venv venv
-
-# Activa el entorno virtual:
-# En Windows:
 .\venv\Scripts\activate
-# En Unix/Linux/macOS:
-source venv/bin/activate
 
 # Instala las dependencias
 pip install -r requirements.txt
