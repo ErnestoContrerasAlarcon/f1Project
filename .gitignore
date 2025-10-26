@@ -1,0 +1,46 @@
+# Archivo .gitignore para el proyecto f1Project
+
+# Entornos Virtuales de Python
+# ¡La regla más importante! Nunca subas tu entorno virtual.
+venv/
+.venv/
+*/venv/
+*/.venv/
+env/
+.env/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas de dependencias de Node.js
+# ¡Igual de importante! Nunca subas node_modules.
+frontend/node_modules/
+node_modules/
+
+# Archivos de build y logs del frontend
+frontend/dist/
+frontend/.npm
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Archivos de datos (¡No subir audios pesados!)
+# *.mp3
+# *.wav
+# transcripcion.txt
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de entorno (para claves de API futuras)
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
